@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/vuepress-boilerplate/',
   title: 'Vuepress Boilerplate',
   description: 'Vuepress is amazing!',
   themeConfig: {
@@ -6,6 +7,7 @@ module.exports = {
         '/ref/': [
           'homepage',
           'config',
+          'deploy'
         ]
     }
   }
