@@ -1,6 +1,12 @@
 {
   "name": "vuepress-boilerplate",
   "version": "1.0.0",
+  "private": true,
+  "author": "Vaibhav Shinde",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VaibKS/vuepress-boilerplate.git"
+  },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
@@ -9,5 +15,6 @@
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.5.2"
-  }
+  },
+  "homepage": "https://vaibks.github.io/vuepress-boilerplate"
 }
