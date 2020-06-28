@@ -1,0 +1,13 @@
+{
+  "name": "vuepress-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:clean": "rm -rf docs/ref .git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.2"
+  }
+}
