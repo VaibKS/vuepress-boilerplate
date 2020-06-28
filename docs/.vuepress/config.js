@@ -1,7 +1,7 @@
 module.exports = {
   base: '/vuepress-boilerplate/',
-  title: 'Vuepress Boilerplate',
-  description: 'Vuepress is amazing!',
+  title: 'VuePress Boilerplate',
+  description: 'VuePress is amazing!',
   themeConfig: {
     sidebar: {
         '/ref/': [
@@ -10,5 +10,8 @@ module.exports = {
           'deploy'
         ]
     }
-  }
+  },
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' }]
+  ]
 }

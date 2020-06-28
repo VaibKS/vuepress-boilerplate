@@ -1,6 +1,7 @@
-# config.js
+# Basic Configuration
 
 ```js
+// docs/.vuepress/config.js
 module.exports = {
   title: 'Vuepress Boilerplate',
   description: 'Vuepress is amazing!',

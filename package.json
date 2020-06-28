@@ -10,7 +10,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "docs:clean": "rm -rf docs/ref .git"
+    "ref:clean": "rm -rf docs/ref .git"
   },
   "license": "MIT",
   "devDependencies": {
